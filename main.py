@@ -53,7 +53,7 @@ def get_ssid():
         return result if result else "-"
     except:
         return "-"
-
+ 
 def get_uptime():
     try:
         with open("/proc/uptime", "r") as f:
